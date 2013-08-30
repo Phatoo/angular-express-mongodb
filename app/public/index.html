@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <meta charset="utf-8">
+        <title>image list</title>
+
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+        <script src="/js/lib/angular/angular.js"></script>
+        <script src="/js/contentList.js"></script>
+
+    </head>
+    <body>
+        <div ng-controller="contentList" data-ng-init="init()">
+            <div ng-repeat="c in content">
+                <img class='list-item' ng-src="{{c.url}}">
+            </div>
+        </div>
+    </body>
+</html>

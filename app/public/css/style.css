@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#controls { 
+    margin: 0 0;
+    height: 50px;
+    width: 500px;
+    border: 4px red;
+    background-color: #e00;
+}
